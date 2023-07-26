@@ -39,8 +39,7 @@ if TYPE_CHECKING:
     import requests
     from aiohttp import ClientSession
 
-#api_key = os.environ.get("OPENAI_API_KEY")
-api_key = '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' # OpenAI API key for the project "OpenAI Playground"
+api_key = os.environ.get("OPENAI_API_KEY")
 # Path of a file with an API key, whose contents can change. Supercedes
 # `api_key` if set.  The main use case is volume-mounted Kubernetes secrets,
 # which are updated automatically.
